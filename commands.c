@@ -2251,7 +2251,7 @@ char *owl_command_show(int argc, const char *const *argv, const char *buff)
     } else {
       owl_function_show_view(NULL);
     }
-  } else if (!strcmp(argv[1], "colors")) {
+  } else if (!strcmp(argv[1], "colors") || (!strcmp(argv[1], "colours"))) {
     owl_function_show_colors();
   } else if (!strcmp(argv[1], "styles")) {
     owl_function_show_styles();

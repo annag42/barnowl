@@ -20,6 +20,7 @@ my @all_colors = qw(default
 
 my %show = (
     colors      => undef,
+    colours     => undef,
     commands    => undef,
     command     => \&complete_command,
     errors      => undef,
